@@ -1,2 +1,2 @@
 # lab 6
- bonus awchih yumsan
+ https://shinebayar12.github.io/lab-6/
