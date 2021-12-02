@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Hangman</title>
+	<style> 
+#history {
+  width: 75px;
+  height: 80px;
+  background: white;
+  position: relative;
+  animation-name: m;
+  animation-duration: 30s;  
+  animation-delay: 0s;
+  position: absolute;
+  right: 530px;
+  font-size: 5em;
+ animation-timing-function: linear;animation-iteration-count: infinite;
+ outline: none;
+ transition: ease-out 0.5s;
+
+
+}
+#history:hover {
+	box-shadow: inset 80px 0 0 0 #A52A2A;
+	cursor: pointer;
+	color: #000;
+} 
+
+@keyframes m {
+  0% {top: 100px; background-color: white;}
+  25% {top: 600px; background-color: white;}
+   75% {top: 100px; background-color: white;}
+  100% {top: 600px; background-color: white;}
+}
+#history a {
+	text-decoration: none;
+	color: black;
+}
+#movie {
+  width: 75px;
+  height: 80px;
+  background: white;
+  position: relative;
+  animation-name: m;
+  animation-duration: 25s;  
+  animation-delay: 0s;
+  position: absolute;
+  right: 900px;
+  font-size: 5em;
+ animation-timing-function: linear;animation-iteration-count: infinite;
+ outline: none;
+ transition: ease-out 0.5s;
+
+
+}
+#movie:hover {
+	box-shadow: inset 80px 0 0 0 #009B77;
+	cursor: pointer;
+	color: #000;
+} 
+#movie a {
+	text-decoration: none;
+	color: black;
+
+}
+
+
+#sports {
+  width: 75px;
+  height: 80px;
+  background: white;
+  position: relative;
+  animation-name: m;
+  animation-duration: 35s;  
+  animation-delay: 0s;
+  position: absolute;
+  right: 690px;
+  font-size: 5em;
+ animation-timing-function: linear;animation-iteration-count: infinite;
+ outline: none;
+ transition: ease-out 0.5s;
+
+
+}
+#sports:hover {
+	box-shadow: inset 80px 0 0 0 #FF8C00;
+	cursor: pointer;
+	color: #000;
+} 
+#sports a {
+	text-decoration: none;
+	color: black;
+}
+#bonus {
+  width: 75px;
+  height: 80px;
+  background: white;
+  position: relative;
+  animation-name: m;
+  animation-duration: 20s;  
+  animation-delay: 0s;
+  position: absolute;
+  right: 370px;
+  font-size: 5em;
+ animation-timing-function: linear;animation-iteration-count: infinite;
+ outline: none;
+ transition: ease-out 0.5s;
+
+
+}
+#bonus:hover {
+	box-shadow: inset 80px 0 0 0 #FF0000;
+	cursor: pointer;
+	color: #000;
+} 
+#bonus a {
+	text-decoration: none;
+	color: black;
+}
+</style>
+</head>
+<body>
+	<img src="hangman.png" alt="Hangman" width="1300" height="500">
+
+	<div id="movie"><a href="movie.html">H</a></div>
+	<div id="sports"><a href="sports.html">N</a></div>
+	<div id="history"><a href="history.html">M</a></div>
+	<div id="bonus"><a href="bonus_pls.html">N</a></div>
+</body>
+
+</html>
